@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name" translatable="false">It\'s Lviv</string>
+
+    <string name="map_nav_text">Map</string>
+    <string name="home_nav_text">Home</string>
+    <string name="settings_nav_text">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header" translatable="false">Messages</string>
+    <string name="sync_header" translatable="false">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title" translatable="false">Your signature</string>
+    <string name="reply_title" translatable="false">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" translatable="false">Sync email periodically</string>
+    <string name="attachment_title" translatable="false">Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>
+    <string name="emergencyToolsItem">Fire – 101 \n Police – 102 \n Ambulance – 103 \n Gas emergency – 104</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="shopping">shopping</string>
+    <string name="parks">parks</string>
+    <string name="restaurants">restaurants</string>
+    <string name="bars">Bars</string>
+    <string name="museums">Museums</string>
+    <string name="sightseeing">Sightseeing</string>
+    <string name="restrooms">Public WC</string>
+    <string name="atm_amp_banks"><![CDATA[ATM & Banks]]></string>
+    <string name="parking">Parking</string>
+    <string name="embassy">Embassy</string>
+    <string name="hotels">Hotels</string>
+    <string name="health">Health</string>
+    <string name="in_case_of_emergancy">In case of emergancy:</string>
+    <string name="uah">UAH</string>
+    <string name="usd">USD</string>
+    <string name="right_now_in_lviv">Right now in Lviv:</string>
+    <string name="urrency_exchange">Сurrency exchange</string>
+    <string name="useful_phrases">Useful phrases</string>
+    <string name="welcome_to_lviv">Welcome to Lviv!</string>
+    <string name="news">NEWS</string>
+    <string name="activities">ACTIVITIES</string>
+    <string name="essentials">ESSENTIALS</string>
+    <string name="info_and_tools">INFO AND TOOLS</string>
+    <string name="black_theme">Black theme</string>
+    <string name="contact_us">Contact US</string>
+    <string name="choose_your_language">Choose your language</string>
+    <string name="find_on_map">Find on map</string>
+    <string name="more">More...</string>
+
+
+</resources>

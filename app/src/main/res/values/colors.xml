@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="LightThemeIcons">#ffffff</color>
+    <color name="LightThemeСurtain">#c1480b</color>
+    <color name="LightThemeDark">#000000</color>
+
+    <color name="NewsMenuThemeIcons">#f26a26</color>
+    <color name="NewsMenuThemeСurtain">#c1480b</color>
+    <color name="NewsMenuThemeDark">#000000</color>
+
+    <color name="BackGroundСolor">#F2F2F2</color>
+    <color name="BtnСolor">#FFFFFF</color>
+    <color name="TextColor">#000000</color>
+    <color name="MainColor">#f26a26</color>
+    <color name="IconColor">#ffffff</color>
+
+    <color name="DarkBackGroundСolor">#333333</color>
+    <color name="DarkBtnСolor">#595959</color>
+    <color name="DarkTextColor">#ffffff</color>
+    <color name="DarkIconColor">#4d4d4d</color>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/point"
+        android:title="@string/map_nav_text" />
+    <item
+        android:id="@+id/homeFragment"
+        android:checked="true"
+        android:icon="@drawable/home_icon"
+        android:title="@string/home_nav_text" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/settings_icon"
+        android:title="@string/settings_nav_text" />
+
+</menu>

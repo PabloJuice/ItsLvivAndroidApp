@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackGroundСolor"
+    android:paddingTop="27dp"
+    tools:context=".menu.HomeFragment">
+
+    <Button
+        android:id="@+id/wikiHomeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="end"
+        android:padding="32dp"
+        android:text="@string/welcome_to_lviv"
+        android:textAllCaps="false"
+        android:textColor="@color/TextColor"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/newsHomeBtn"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/news"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/activitiesHomeBtn"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wikiHomeBtn"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/activitiesHomeBtn"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/activities"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/newsHomeBtn"
+        app:layout_constraintTop_toBottomOf="@+id/wikiHomeBtn"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/essentialHomeBtn"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="24dp"
+        android:paddingBottom="8dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:text="@string/essentials"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toolsHomeBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newsHomeBtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/toolsHomeBtn"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:text="@string/info_and_tools"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/essentialHomeBtn"
+        app:layout_constraintTop_toBottomOf="@+id/activitiesHomeBtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/info"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolsHomeBtn"
+        app:layout_constraintEnd_toEndOf="@+id/toolsHomeBtn"
+        app:layout_constraintStart_toStartOf="@+id/toolsHomeBtn"
+        app:layout_constraintTop_toTopOf="@+id/toolsHomeBtn"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/news"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/newsHomeBtn"
+        app:layout_constraintEnd_toEndOf="@+id/newsHomeBtn"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="@+id/newsHomeBtn"
+        app:layout_constraintTop_toTopOf="@+id/newsHomeBtn"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/activities"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/activitiesHomeBtn"
+        app:layout_constraintEnd_toEndOf="@+id/activitiesHomeBtn"
+        app:layout_constraintStart_toStartOf="@+id/activitiesHomeBtn"
+        app:layout_constraintTop_toTopOf="@+id/activitiesHomeBtn"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/essen"
+        android:translationZ="10dp"
+        app:layout_constraintVertical_bias="0.25"
+        app:layout_constraintBottom_toBottomOf="@+id/essentialHomeBtn"
+        app:layout_constraintEnd_toEndOf="@+id/essentialHomeBtn"
+        app:layout_constraintStart_toStartOf="@+id/essentialHomeBtn"
+        app:layout_constraintTop_toTopOf="@+id/essentialHomeBtn" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="370dp"
+        android:layout_height="220dp"
+        android:src="@drawable/lviv_city"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/wikiHomeBtn"
+        app:layout_constraintEnd_toEndOf="@+id/wikiHomeBtn"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="@+id/wikiHomeBtn"
+        app:layout_constraintTop_toTopOf="@+id/wikiHomeBtn"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

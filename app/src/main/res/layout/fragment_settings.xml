@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:ads2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackGroundСolor"
+    tools:context=".menu.SettingsFragment">
+
+    <Switch
+        android:id="@+id/themeChanger"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/halvetica"
+        android:text="@string/black_theme"
+        android:textColor="@color/TextColor"
+        android:textSize="18sp"
+        ads2:layout_constraintBottom_toTopOf="@+id/languageSpinnerBtn"
+        ads2:layout_constraintEnd_toEndOf="parent"
+        ads2:layout_constraintStart_toStartOf="parent"
+        ads2:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/advSettings"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        ads2:adSize="MEDIUM_RECTANGLE"
+        ads2:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        ads2:layout_constraintBottom_toBottomOf="parent"
+        ads2:layout_constraintEnd_toEndOf="parent"
+        ads2:layout_constraintHorizontal_bias="0.0"
+        ads2:layout_constraintStart_toStartOf="parent"
+        ads2:layout_constraintTop_toBottomOf="@+id/contactSettingsBTN" />
+
+    <TextView
+        android:id="@+id/encodedInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/halvetica"
+        android:gravity="center"
+        android:text="PabloJuice 2020"
+        android:textColor="@color/TextColor"
+        ads2:layout_constraintBottom_toBottomOf="parent"
+        ads2:layout_constraintEnd_toEndOf="parent"
+        ads2:layout_constraintHorizontal_bias="0.0"
+        ads2:layout_constraintStart_toStartOf="parent"
+        ads2:layout_constraintTop_toBottomOf="@+id/advSettings"
+        ads2:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/contactSettingsBTN"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/fom_btn"
+        android:fontFamily="@font/halvetica"
+        android:text="@string/contact_us"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        ads2:layout_constraintBottom_toTopOf="@+id/advSettings"
+        ads2:layout_constraintEnd_toEndOf="parent"
+        ads2:layout_constraintStart_toStartOf="parent"
+        ads2:layout_constraintTop_toBottomOf="@+id/languageSpinnerBtn" />
+
+    <Spinner
+        android:id="@+id/languageSpinnerBtn"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:textColor="@android:color/holo_red_light"
+        ads2:layout_constraintBottom_toTopOf="@+id/contactSettingsBTN"
+        ads2:layout_constraintEnd_toEndOf="parent"
+        ads2:layout_constraintStart_toEndOf="@+id/textView3"
+        ads2:layout_constraintTop_toBottomOf="@+id/themeChanger" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="@font/halvetica"
+        android:text="@string/choose_your_language"
+        android:textColor="@color/TextColor"
+        android:textSize="18sp"
+        ads2:layout_constraintEnd_toStartOf="@+id/languageSpinnerBtn"
+        ads2:layout_constraintHorizontal_chainStyle="packed"
+        ads2:layout_constraintStart_toStartOf="parent"
+        ads2:layout_constraintTop_toTopOf="@+id/languageSpinnerBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

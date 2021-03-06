@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackGroundСolor"
+    android:paddingTop="40dp"
+    tools:context="com.pablojuice.itslviv.homeMenu.EssentialActivity">
+
+    <Button
+        android:id="@+id/restroomsActivityBTN"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/restrooms"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/banksActivityBTN"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hotelsActivityBTN" />
+
+    <Button
+        android:id="@+id/banksActivityBTN"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/atm_amp_banks"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/restroomsActivityBTN"
+        app:layout_constraintTop_toBottomOf="@+id/hotelsActivityBTN" />
+
+    <Button
+        android:id="@+id/parkingActivityBTN"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/parking"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/embassyActivityBTN"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/restroomsActivityBTN"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/embassyActivityBTN"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/embassy"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/parkingActivityBTN"
+        app:layout_constraintTop_toBottomOf="@+id/banksActivityBTN"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/hotelsActivityBTN"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/hotels"
+        android:textColor="@color/TextColor"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/healthActivityBTN"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/healthActivityBTN"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/health"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hotelsActivityBTN"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hotelsActivityBTN"
+        app:layout_constraintEnd_toEndOf="@+id/hotelsActivityBTN"
+        app:layout_constraintStart_toStartOf="@+id/hotelsActivityBTN"
+        app:layout_constraintTop_toTopOf="@+id/hotelsActivityBTN"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/hotels_icon" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/healthActivityBTN"
+        app:layout_constraintEnd_toEndOf="@+id/healthActivityBTN"
+        app:layout_constraintStart_toStartOf="@+id/healthActivityBTN"
+        app:layout_constraintTop_toTopOf="@+id/healthActivityBTN"
+        app:srcCompat="@drawable/health_icon" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/restroomsActivityBTN"
+        app:layout_constraintEnd_toEndOf="@+id/restroomsActivityBTN"
+        app:layout_constraintStart_toStartOf="@+id/restroomsActivityBTN"
+        app:layout_constraintTop_toTopOf="@+id/restroomsActivityBTN"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/toilet" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:translationZ="10dp"
+        app:layout_constraintVertical_bias="0.25"
+        app:layout_constraintBottom_toBottomOf="@+id/banksActivityBTN"
+        app:layout_constraintEnd_toEndOf="@+id/banksActivityBTN"
+        app:layout_constraintStart_toStartOf="@+id/banksActivityBTN"
+        app:layout_constraintTop_toTopOf="@+id/banksActivityBTN"
+        app:srcCompat="@drawable/atm" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/parkingActivityBTN"
+        app:layout_constraintEnd_toEndOf="@+id/parkingActivityBTN"
+        app:layout_constraintStart_toStartOf="@+id/parkingActivityBTN"
+        app:layout_constraintTop_toTopOf="@+id/parkingActivityBTN"
+        app:layout_constraintVertical_bias="0.35000002"
+        app:srcCompat="@drawable/parking" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/embassyActivityBTN"
+        app:layout_constraintEnd_toEndOf="@+id/embassyActivityBTN"
+        app:layout_constraintStart_toStartOf="@+id/embassyActivityBTN"
+        app:layout_constraintTop_toTopOf="@+id/embassyActivityBTN"
+        app:layout_constraintVertical_bias="0.29000002"
+        app:srcCompat="@drawable/embassy" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <style name="HomeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightThemeIcons</item>
+        <item name="colorPrimaryDark">@color/LightThemeСurtain</item>
+        <item name="colorAccent">@color/LightThemeDark</item>
+    </style>
+    <style name="NewsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/NewsMenuThemeIcons</item>
+        <item name="colorPrimaryDark">@color/NewsMenuThemeСurtain</item>
+        <item name="colorAccent">@color/NewsMenuThemeDark</item>
+    </style>
+
+</resources>

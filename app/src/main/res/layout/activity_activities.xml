@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="40dp"
+    tools:context="com.pablojuice.itslviv.homeMenu.ActivitiesActivity">
+
+    <Button
+        android:id="@+id/shoppingActivityBTN"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/shopping"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/parksActivityBTN"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/museumActivityBTN" />
+
+    <Button
+        android:id="@+id/parksActivityBTN"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/parks"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/shoppingActivityBTN"
+        app:layout_constraintTop_toBottomOf="@+id/museumActivityBTN" />
+
+    <Button
+        android:id="@+id/restaurantsActivityBTN"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/restaurants"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/barsActivityBTN"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoppingActivityBTN"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/barsActivityBTN"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/bars"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/restaurantsActivityBTN"
+        app:layout_constraintTop_toBottomOf="@+id/parksActivityBTN"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/museumActivityBTN"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/museums"
+        android:textColor="@color/TextColor"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:elevation="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/sightActivityBTN"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sightActivityBTN"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/halvetica"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="@string/sightseeing"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/museumActivityBTN"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/museumActivityBTN"
+        app:layout_constraintEnd_toEndOf="@+id/museumActivityBTN"
+        app:layout_constraintStart_toStartOf="@+id/museumActivityBTN"
+        app:layout_constraintTop_toTopOf="@+id/museumActivityBTN"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/museums_icon" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/sightActivityBTN"
+        app:layout_constraintEnd_toEndOf="@+id/sightActivityBTN"
+        app:layout_constraintStart_toStartOf="@+id/sightActivityBTN"
+        app:layout_constraintTop_toTopOf="@+id/sightActivityBTN"
+        app:srcCompat="@drawable/sightseeing_icon" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/shoppingActivityBTN"
+        app:layout_constraintEnd_toEndOf="@+id/shoppingActivityBTN"
+        app:layout_constraintStart_toStartOf="@+id/shoppingActivityBTN"
+        app:layout_constraintTop_toTopOf="@+id/shoppingActivityBTN"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/shopping_icon" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/parksActivityBTN"
+        app:layout_constraintEnd_toEndOf="@+id/parksActivityBTN"
+        app:layout_constraintStart_toStartOf="@+id/parksActivityBTN"
+        app:layout_constraintTop_toTopOf="@+id/parksActivityBTN"
+        app:srcCompat="@drawable/parks_icon" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/restaurantsActivityBTN"
+        app:layout_constraintEnd_toEndOf="@+id/restaurantsActivityBTN"
+        app:layout_constraintStart_toStartOf="@+id/restaurantsActivityBTN"
+        app:layout_constraintTop_toTopOf="@+id/restaurantsActivityBTN"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/restaurants_icon" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/barsActivityBTN"
+        app:layout_constraintEnd_toEndOf="@+id/barsActivityBTN"
+        app:layout_constraintStart_toStartOf="@+id/barsActivityBTN"
+        app:layout_constraintTop_toTopOf="@+id/barsActivityBTN"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/bars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

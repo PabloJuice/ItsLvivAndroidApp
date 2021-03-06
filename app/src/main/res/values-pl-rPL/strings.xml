@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="map_nav_text">Mapa</string>
+    <string name="home_nav_text">Dom</string>
+    <string name="settings_nav_text">Ustawienia</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="parks">Parki</string>
+    <string name="restaurants">Restauracje</string>
+    <string name="bars">Bari</string>
+    <string name="museums">Muzea</string>
+    <string name="sightseeing">Okolica</string>
+    <string name="restrooms">Publiczne toalety</string>
+    <string name="atm_amp_banks"><![CDATA[Bankomaty i banki]]></string>
+    <string name="parking">Parking</string>
+    <string name="embassy">Ambasady</string>
+    <string name="hotels">Hotele</string>
+    <string name="health">Zdrowie</string>
+    <string name="in_case_of_emergancy">W nagłym wypadku:</string>
+    <string name="uah">UAH</string>
+    <string name="usd">USD</string>
+    <string name="right_now_in_lviv">Teraz we Lwowie:</string>
+    <string name="urrency_exchange">Wymiana walut</string>
+    <string name="useful_phrases">Przydatne zwroty</string>
+    <string name="welcome_to_lviv">Witamy we Lwowie!</string>
+    <string name="news">AKTUALNOŚCI</string>
+    <string name="activities">ZABAWA</string>
+    <string name="essentials">NIEZBĘDNY</string>
+    <string name="info_and_tools">PRZYDATNY</string>
+    <string name="black_theme">ciemny schemat</string>
+    <string name="contact_us">Skontaktuj się z nami</string>
+    <string name="choose_your_language">Wybierz swój język</string>
+    <string name="find_on_map">Znajdź na mapie</string>
+    <string name="more">Więcej ...</string>
+    <string name="shopping">Zakupy</string>
+    <string name="emergencyToolsItem">Pomoc małżeńska - 101 \n Policja- 102 \n
+Karetka - 103 \n Usługa sieci gazowej - 104</string>
+</resources>

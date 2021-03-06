@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:left="3dp" android:top="3dp">
+    <shape android:shape="rectangle">
+        <solid android:color="@android:color/darker_gray" />
+        <corners android:radius="20dp"/>
+    </shape>
+</item>
+<!-- foreground -->
+<item android:bottom="3dp" android:right="1dp">
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+        <solid android:color="@color/BtnСolor"/>
+
+        <corners android:radius="20dp" />
+<!--        <stroke android:color="@color/BackGroundСolor" android:width="8dp" />-->
+
+    </shape>
+</item>
+</layer-list>

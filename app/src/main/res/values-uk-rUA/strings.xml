@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="map_nav_text">Карта</string>
+    <string name="home_nav_text">Дім</string>
+    <string name="settings_nav_text">Налаштування</string>
+    <string name="title_activity_maps">Карта</string>
+    <string name="parks">Парки</string>
+    <string name="restaurants">Ресторани</string>
+    <string name="bars">Бари</string>
+    <string name="museums">Музеї</string>
+    <string name="sightseeing">Околиці</string>
+    <string name="restrooms">Публічні туалети</string>
+    <string name="atm_amp_banks"><![CDATA[Банкомати & Банки]]></string>
+    <string name="parking">Паркінг</string>
+    <string name="embassy">Посольства</string>
+    <string name="hotels">Готелі</string>
+    <string name="health">Здоров\'я</string>
+    <string name="in_case_of_emergancy">В екстреному випадку:</string>
+    <string name="uah">ГРН</string>
+    <string name="usd">ДОЛ</string>
+    <string name="right_now_in_lviv">Зараз у Львові:</string>
+    <string name="urrency_exchange">Обмін валюти</string>
+    <string name="useful_phrases">Корисні фрази</string>
+    <string name="welcome_to_lviv">Ласкаво просимо до Львова!</string>
+    <string name="news">НОВИНИ</string>
+    <string name="activities">РОЗВАГИ</string>
+    <string name="essentials">НЕОБХІДНЕ</string>
+    <string name="info_and_tools">КОРИСНЕ</string>
+    <string name="black_theme">Темна тема</string>
+    <string name="contact_us">Зв\'язатися з нами</string>
+    <string name="choose_your_language">Виберіть свою мову</string>
+    <string name="find_on_map">Знайти на карті</string>
+    <string name="more">Більше ...</string>
+    <string name="shopping">Покупки</string>
+    <string name="emergencyToolsItem">Пожена допомога - 101 \n Поліція - 102 \n Швидка допомога - 103 \n Служба газової мережі - 104</string>
+</resources>
