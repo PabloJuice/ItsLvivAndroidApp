@@ -166,9 +166,8 @@
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="150dp"
+                android:layout_width="169dp"
                 android:layout_height="220dp"
-                android:layout_marginStart="5dp"
                 android:background="@color/MainColor"
                 android:paddingLeft="50dp"
                 android:paddingTop="60dp"
